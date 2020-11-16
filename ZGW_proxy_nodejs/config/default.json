@@ -1,0 +1,45 @@
+{
+  "car"     :
+  {
+    "icom"    :
+    {
+      "host"    : "192.168.1.41",
+      "port"    : "6801"
+    },
+    "discover":
+    {
+      "address" : "192.168.1.41",
+      "port"    : "6811"
+    }
+  },
+  "proxy"   :
+  {
+    "icom"    :
+    {
+      "family"  : "IPv4",
+      "port"    : "6801"
+    },
+    "discover":
+    {
+      "family"  : "IPv4",
+      "port"    : "6811"
+    }
+  },
+  "ecuId"   :
+  {
+    "enet"      : "0xF4",
+    "ecu"       : "0x06"
+  },
+  "serialCANproxy" :
+  {
+    "port"      : "COM3",
+    "portOpt"   :
+    {
+      "baudRate": 1000000
+    }
+  },
+  "logging"  :
+  {
+    "level"     : "info"
+  }
+}

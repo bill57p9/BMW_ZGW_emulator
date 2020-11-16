@@ -1,0 +1,32 @@
+{
+  "car"     :
+  {
+    "icom"    :
+    {
+      "host"    : "ENET_ADDRESS"
+    },
+    "discover":
+    {
+      "address" : "ENET_ADDRESS"
+    }
+  },
+  "proxy"   :
+  {
+    "icom"    :
+    {
+      "port"    : "ICOM_PORT"
+    }
+  },
+  "ecuId"    :
+  {
+    "ecu"       : "ECU"
+  },
+  "serialCANproxy" :
+  {
+    "port"      : "CAN_GW"
+  },
+  "logging"  :
+  {
+    "level"     : "LOG_LEVEL"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "zgw_proxy",
+  "version": "1.0.0",
+  "description": "BMW ZGW proxy",
+  "main": "src",
+  "scripts": {
+    "start": "node src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bill Taylor",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.2",
+    "winston": "^3.3.3"
+  }
+}
