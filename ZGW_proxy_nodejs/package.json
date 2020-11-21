@@ -7,6 +7,7 @@
     "start": "node src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": "http://github.com/bill57p9/BMW_ZGW_emulator/ZGW_proxy_nodejs",
   "author": "Bill Taylor",
   "license": "ISC",
   "dependencies": {
